@@ -568,6 +568,13 @@ video {
   }
 }
 
+@media (min-width: 1024px) {
+  .card {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
 .btn {
   margin-left: 4rem;
   border-radius: 0.5rem;
@@ -592,12 +599,16 @@ video {
 @media (min-width: 768px) {
   .btn {
     margin-left: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
 @media (min-width: 1024px) {
   .btn {
-    margin-left: 8rem;
+    margin-left: 7rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
@@ -657,11 +668,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-xl {

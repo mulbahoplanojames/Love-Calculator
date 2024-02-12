@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Calculator JavaScript Project 1</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <div class="grid place-items-center h-[100vh] bg-slate-700 px-4">
+      <div class="card">
+        <form action="">
+          <div>
+            <label for="name" class="text-xl pb-2 inline-block"
+              >Your name
+            </label>
+            <input
+              type="text"
+              autocomplete="on"
+              id="name1"
+              class="w-full h-10 outline-none px-4 rounded-lg mb-6"
+            />
+          </div>
+          <div>
+            <label for="name" class="text-xl pb-2 inline-block"
+              >Partner's name
+            </label>
+
+            <input
+              autocomplete="on"
+              type="text"
+              id="name2"
+              class="w-full h-10 outline-none px-4 rounded-lg mb-6"
+            />
+          </div>
+          <div>
+            <button id="calculateBtn" class="btn">Calculate</button>
+
+            <h3 id="displayOutPut" class="text-center pt-4 text-xl">Result</h3>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
